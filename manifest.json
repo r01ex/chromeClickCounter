@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Click Counter",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": [ "<all_urls>" ],
+      "js": [ "click_counter.js" ]
+    }
+  ],
+  "permissions": [ "activeTab", "tabs", "storage" ]
+}
